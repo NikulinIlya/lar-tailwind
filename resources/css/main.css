@@ -23,6 +23,10 @@ a {
 .top-nav-item:hover {
     @apply .text-teal .border-teal;
 }
+
+.hero {
+    background: url('/img/twitter/tailwind_bg.jpg');
+}
 /**
  * This injects any component classes registered by plugins.
  *
