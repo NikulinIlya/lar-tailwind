@@ -505,6 +505,27 @@ table {
   border-collapse: collapse;
 }
 
+a {
+  text-decoration: none;
+  color: #4dc0b5;
+}
+
+.top-nav-item {
+  color: #606f7b;
+  font-size: .875rem;
+  margin-right: 1rem;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.top-nav-item:hover {
+  color: #4dc0b5;
+  border-color: #4dc0b5;
+}
+
 /**
  * This injects any component classes registered by plugins.
  *
