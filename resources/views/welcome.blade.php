@@ -41,31 +41,31 @@
                 <div class="w-1/2">
                     <ul class="list-reset flex">
                         <li class="text-center py-3 px-4 border-b-2 border-solid border-teal">
-                            <a href="#" class="text-green-darker hove:no-underline">
+                            <a href="#" class="text-green-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Tweets</div>
                                 <div class="text-lg font-bold tracking-tight text-teal">50</div>
                             </a>
                         </li>
                         <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
-                            <a href="#" class="text-green-darker hove:no-underline">
+                            <a href="#" class="text-green-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Following</div>
                                 <div class="text-lg font-bold tracking-tight hover:text-teal">10</div>
                             </a>
                         </li>
                         <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
-                            <a href="#" class="text-green-darker hove:no-underline">
+                            <a href="#" class="text-green-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Followers</div>
                                 <div class="text-lg font-bold tracking-tight hover:text-teal">500</div>
                             </a>
                         </li>
                         <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
-                            <a href="#" class="text-green-darker hove:no-underline">
+                            <a href="#" class="text-green-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Likes</div>
                                 <div class="text-lg font-bold tracking-tight hover:text-teal">50</div>
                             </a>
                         </li>
                         <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
-                            <a href="#" class="text-green-darker hove:no-underline">
+                            <a href="#" class="text-green-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Moments</div>
                                 <div class="text-lg font-bold tracking-tight hover:text-teal">5</div>
                             </a>
@@ -83,7 +83,52 @@
             </div>
         </div>
 
+        <div class="container mx-auto flex mt-3 text-sm leading-normal">
+            <div class="w-1/4 pr-6 mt-8 mb-4">
+                <h1><a href="#" class="text-black">Tailwind CSS</a></h1>
+                <div class="mb-4"><a href="#" class="text-grey-darker ">@tailwindcss</a></div>
 
+                <div class="mb-4">
+                    A utility-first CSS framework for rapid UI development. By <a href="#">@adamwathan</a>, <a href="#">@reinink</a>,
+                    <a href="#">@davidhemphill</a>, and <a href="#">@steveschoger</a>.
+                </div>
+
+                <div class="mb-2"><i class="fas fa-link fa-lg text-grey-darker mr-1"></i><a href="#"> tailwindcss.com</a></div>
+                <div class="mb-4"><i class="fas fa-calendar-alt fa-lg text-grey-darker mr-1"></i><a href="#"> Joined august 2017</a></div>
+
+                <div class="mb-4">
+                    <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full w-full h-10">Tweet to Tailwind.css</button>
+                </div>
+
+                <div class="mb-4"><i class="fas fa-user fa-lg text-grey-dark mr-1"></i><a href="#"> 20 Followers you know</a></div>
+
+                <div class="mb-4">
+                    <a href="#"><img src="/img/twitter/follower01.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower02.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower03.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower04.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower05.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower06.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower07.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower08.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower09.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower10.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                </div>
+
+                <div class="mb-4"><i class="far fa-image fa-lg text-grey-dark mr-1"></i><a href="#"> Photos and videos</a></div>
+
+                <div class="mb-4">
+                    <a href="#"><img src="/img/twitter/photo1.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                    <a href="#"><img src="/img/twitter/photo2.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                    <a href="#"><img src="/img/twitter/photo3.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                    <a href="#"><img src="/img/twitter/photo4.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                    <a href="#"><img src="/img/twitter/photo5.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                </div>
+            </div>
+
+            <div class="w-1/2"></div>
+            <div class="w-1/4"></div>
+        </div>
 
     </body>
 </html>

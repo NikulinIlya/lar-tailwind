@@ -510,6 +510,10 @@ a {
   color: #4dc0b5;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .top-nav-item {
   color: #606f7b;
   font-size: .875rem;
@@ -522,6 +526,7 @@ a {
 }
 
 .top-nav-item:hover {
+  text-decoration: none;
   color: #4dc0b5;
   border-color: #4dc0b5;
 }
@@ -3192,6 +3197,10 @@ a {
 
 .h-16 {
   height: 4rem;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .h-24 {
@@ -6167,6 +6176,10 @@ a {
   width: 4rem;
 }
 
+.w-20 {
+  width: 5rem;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -8880,6 +8893,10 @@ a {
 
   .sm\:h-16 {
     height: 4rem;
+  }
+
+  .sm\:h-20 {
+    height: 5rem;
   }
 
   .sm\:h-24 {
@@ -11839,6 +11856,10 @@ a {
     width: 4rem;
   }
 
+  .sm\:w-20 {
+    width: 5rem;
+  }
+
   .sm\:w-24 {
     width: 6rem;
   }
@@ -14538,6 +14559,10 @@ a {
 
   .md\:h-16 {
     height: 4rem;
+  }
+
+  .md\:h-20 {
+    height: 5rem;
   }
 
   .md\:h-24 {
@@ -17497,6 +17522,10 @@ a {
     width: 4rem;
   }
 
+  .md\:w-20 {
+    width: 5rem;
+  }
+
   .md\:w-24 {
     width: 6rem;
   }
@@ -20196,6 +20225,10 @@ a {
 
   .lg\:h-16 {
     height: 4rem;
+  }
+
+  .lg\:h-20 {
+    height: 5rem;
   }
 
   .lg\:h-24 {
@@ -23155,6 +23188,10 @@ a {
     width: 4rem;
   }
 
+  .lg\:w-20 {
+    width: 5rem;
+  }
+
   .lg\:w-24 {
     width: 6rem;
   }
@@ -25854,6 +25891,10 @@ a {
 
   .xl\:h-16 {
     height: 4rem;
+  }
+
+  .xl\:h-20 {
+    height: 5rem;
   }
 
   .xl\:h-24 {
@@ -28811,6 +28852,10 @@ a {
 
   .xl\:w-16 {
     width: 4rem;
+  }
+
+  .xl\:w-20 {
+    width: 5rem;
   }
 
   .xl\:w-24 {
