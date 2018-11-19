@@ -93,15 +93,15 @@
                     <a href="#">@davidhemphill</a>, and <a href="#">@steveschoger</a>.
                 </div>
 
-                <div class="mb-2"><i class="fas fa-link fa-lg text-grey-darker mr-1"></i><a href="#"> tailwindcss.com</a></div>
-                <div class="mb-2"><i class="fas fa-calendar-alt fa-lg text-grey-darker mr-1"></i><a href="#"> Joined: august 2017</a></div>
-                <div class="mb-4"><i class="fas fa-birthday-cake fa-lg text-grey-darker mr-1"></i><a href="#"> Birthday: 31 october</a></div>
+                <div class="mb-2"><i class="fas fa-link fa text-grey-darker mr-1"></i><a href="#"> tailwindcss.com</a></div>
+                <div class="mb-2"><i class="fas fa-calendar-alt fa text-grey-darker mr-1"></i><a href="#"> Joined: august 2017</a></div>
+                <div class="mb-4"><i class="fas fa-birthday-cake fa text-grey-darker mr-1"></i><a href="#"> Birthday: 31 october</a></div>
 
                 <div class="mb-4">
                     <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full w-full h-10 font-bold">Tweet</button>
                 </div>
 
-                <div class="mb-4"><i class="fas fa-user fa-lg text-grey-dark mr-1"></i><a href="#"> 20 Followers you know</a></div>
+                <div class="mb-4"><i class="fas fa-user fa text-grey-dark mr-1"></i><a href="#"> 20 Followers you know</a></div>
 
                 <div class="mb-4">
                     <a href="#"><img src="/img/twitter/follower01.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
@@ -176,9 +176,181 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="flex border-b border-solid border-grey-light">
+
+                    <div class="w-1/8 text-right pl-3 pt-3">
+                        <div><i class="fas fa-retweet text-grey-dark mr-2"></i></div>
+                        <div><a href="#"><img src="/img/twitter/avatar_egghead.jpg" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
+                    </div>
+
+                    <div class="w-7/8 p-3 pl-0">
+                        <div class="text-xs text-grey-dark">Tailwind CSS Retweeted</div>
+                        <div class="flex justify-between">
+                            <div>
+                                <span class="font-bold"><a href="#" class="text-black">egghead.io</a></span>
+                                <span class="text-grey-dark">@eggheadio</span>
+                                <span class="text-grey-dark">&middot;</span>
+                                <span class="text-grey-dark">29 Nov 2017</span>
+                            </div>
+                            <div>
+                                <a href="#" class="text-grey-dark hover:text-teal"><i class="fa fa-chevron-down"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb-4">
+                                <p class="mb-6">Create a Responsive Card Component by Composing Tailwind's Utility Classes - <a href="#">#html</a> lesson by <a href="#">@simonswiss</a></p>
+                                <div class="flex border border-solid border-grey-light rounded">
+                                    <div class="w-1/4">
+                                        <img src="/img/twitter/tweet4.jpg" alt="image">
+                                    </div>
+                                    <div class="w-3/4 p-3">
+                                        <div class="font-bold mb-1">egghead Lesson: Abstract utility classes to ...</div>
+                                        <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus voluptate tempore itaque culpa hic qui nostrum, minus harum cupiditate a voluptatibus.
+                                        <div class="text-grey-dark">egghead.io</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="pb-2">
+                                <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fas fa-comment fa-lg mr-2"></i> 2</a></span>
+                                <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-green"><i class="fas fa-retweet fa-lg mr-2"></i> 8</a></span>
+                                <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-red"><i class="fas fa-heart fa-lg mr-2"></i> 24</a></span>
+                                <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-teal"><i class="fas fa-envelope fa-lg mr-2"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="w-1/4"></div>
+            <div class="w-1/4 pl-4">
+                <div class="bg-white p-3 border-b border-solid border-grey-light">
+                    <div>
+                        <span class="text-lg font-bold">Who to follow</span>
+                        <span>&middot;</span>
+                        <span><a href="#" class="text-xs">Refresh</a></span>
+                        <span>&middot;</span>
+                        <span><a href="#" class="text-xs">View All</a></span>
+                    </div>
+
+                    <div class="flex border-b border-solid border-grey-light">
+                        <div class="py-2">
+                            <a href="#"><img src="{{ asset('img/twitter/follow1.jpg') }}" alt="follow1" class="rounded-full h-12 w-12"></a>
+                        </div>
+                        <div class="pl-2 py-2 w-full">
+                            <div class="flex justify-between mb-1">
+                                <div>
+                                    <a href="#" class="font-bold text-black">Nuxt.js</a> <a href="#" class="text-grey-dark">@nuxt_js</a>
+                                </div>
+
+                                <div>
+                                    <a href="#" class="text-grey hover:text-grey-dark"><i class="fas fa-times fa-sm"></i></a>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="bg-transparent text-xs hover:bg-teal text-teal font-semibold hover:text-white py-2 px-6 border
+                                border-teal hover:border-transparent rounded-full">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex border-b border-solid border-grey-light">
+                        <div class="py-2">
+                            <a href="#"><img src="{{ asset('img/twitter/follow2.jpg') }}" alt="follow2" class="rounded-full h-12 w-12"></a>
+                        </div>
+                        <div class="pl-2 py-2 w-full">
+                            <div class="flex justify-between mb-1">
+                                <div>
+                                    <a href="#" class="font-bold text-black">Laracon EU</a> <a href="#" class="text-grey-dark">@LaraconEU</a>
+                                </div>
+
+                                <div>
+                                    <a href="#" class="text-grey hover:text-grey-dark"><i class="fas fa-times fa-sm"></i></a>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="bg-transparent text-xs hover:bg-teal text-teal font-semibold hover:text-white py-2 px-6 border
+                                border-teal hover:border-transparent rounded-full">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="py-2">
+                            <a href="#"><img src="{{ asset('img/twitter/follow3.jpg') }}" alt="follow1" class="rounded-full h-12 w-12"></a>
+                        </div>
+                        <div class="pl-2 py-2 w-full">
+                            <div class="flex justify-between mb-1">
+                                <div>
+                                    <a href="#" class="font-bold text-black">Laracon US</a> <a href="#" class="text-grey-dark">@LaraconUS</a>
+                                </div>
+
+                                <div>
+                                    <a href="#" class="text-grey hover:text-grey-dark"><i class="fas fa-times fa-sm"></i></a>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="bg-transparent text-xs hover:bg-teal text-teal font-semibold hover:text-white py-2 px-6 border
+                                border-teal hover:border-transparent rounded-full">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-3 mb-3">
+                    <div class="flex">
+                        <a href="#" class="p-2 text-xs"><i class="fas fa-users mr-2"></i>Find people you know</a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-3 mb-3">
+                    <div class="mb-3">
+                        <span class="text-lg font-bold">Trends fore you</span>
+                        <span>&middot;</span>
+                        <span><a href="#" class="text-xs">Change</a></span>
+                    </div>
+
+                    <div class="mb-3 leading-tight">
+                        <div><a href="#" class="font-bold">Happy New Year</a></div>
+                        <div><a href="#" class="text-grey-dark text-xs">645K Tweets</a></div>
+                    </div>
+
+                    <div class="mb-3 leading-tight">
+                        <div><a href="#" class="font-bold">Happy 2019</a></div>
+                        <div><a href="#" class="text-grey-dark text-xs">NYE 2018 Celebrations</a></div>
+                    </div>
+
+                    <div class="mb-3 leading-tight">
+                        <div><a href="#" class="font-bold">#ByeBye2018</a></div>
+                        <div><a href="#" class="text-grey-dark text-xs">21.7K Tweets</a></div>
+                    </div>
+
+                    <div class="mb-3 leading-tight">
+                        <div><a href="#" class="font-bold">#SomeHashTag</a></div>
+                        <div><a href="#" class="text-grey-dark text-xs">45K Tweets</a></div>
+                    </div>
+
+                    <div class="mb-3 leading-tight">
+                        <div><a href="#" class="font-bold">Something Trending</a></div>
+                        <div><a href="#" class="text-grey-dark text-xs">36K Tweets</a></div>
+                    </div>
+
+                    <div class="mb-3 leading-tight">
+                        <div><a href="#" class="font-bold">#ColdAF</a></div>
+                        <div><a href="#" class="text-grey-dark text-xs">100K Tweets</a></div>
+                    </div>
+                </div>
+
+                <div class="mb-3 text-xs">
+                    <span class="mr-2"><a href="#" class="text-grey-darker">&copy; 2018 Twitter</a></span>
+                    <span class="mr-2"><a href="#" class="text-grey-darker">About</a></span>
+                    <span class="mr-2"><a href="#" class="text-grey-darker">Help Center</a></span>
+                    <span class="mr-2"><a href="#" class="text-grey-darker">Terms</a></span>
+                    <span class="mr-2"><a href="#" class="text-grey-darker">Privacy policy</a></span>
+                    <span class="mr-2"><a href="#" class="text-grey-darker">Cookies</a></span>
+                    <span class="mr-2"><a href="#" class="text-grey-darker">Ads info</a></span>
+                </div>
+            </div>
         </div>
 
     </body>
