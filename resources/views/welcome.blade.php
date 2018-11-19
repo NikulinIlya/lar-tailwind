@@ -12,7 +12,7 @@
 
     </head>
     <body class="bg-grey-light font-sans">
-        <div class="bg-white">
+        <div class="bg-white border-b border-solid border-teal-dark">
             <div class="container mx-auto flex items-center py-5">
                 <nav class="w-2/5">
                     <a href="#" class="top-nav-item"><i class="fas fa-home fa-lg"></i> Home</a>
@@ -32,41 +32,41 @@
             </div>
         </div>
 
-        <div class="hero h-112 bg-cover"></div>
-        <div class="bg-white shadow">
+        <div class="hero h-96 bg-cover"></div>
+        <div class="bg-white shadow  border-t border-solid border-teal-dark">
             <div class="container mx-auto flex items-center relative">
                 <div class="w-1/4">
-                    <img src="/img/twitter/tailwind_logo.jpg" alt="logo" class="rounded-full h-48 w-48 absolute pin-l pin-t -mt-24">
+                    <img src="/img/twitter/tailwind_logo.jpg" alt="logo" class="rounded-full h-52 w-52 absolute pin-l pin-t -mt-28">
                 </div>
-                <div class="w-1/2">
+                <div class="w-1/4">
                     <ul class="list-reset flex">
                         <li class="text-center py-3 px-4 border-b-2 border-solid border-teal">
-                            <a href="#" class="text-green-darker hover:no-underline">
-                                <div class="text-sm font-bold tracking-tight mb-1">Tweets</div>
+                            <a href="#" class="text-grey-darker hover:no-underline">
+                                <div class="text-xs font-bold tracking-tight mb-1">Tweets</div>
                                 <div class="text-lg font-bold tracking-tight text-teal">50</div>
                             </a>
                         </li>
                         <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
-                            <a href="#" class="text-green-darker hover:no-underline">
-                                <div class="text-sm font-bold tracking-tight mb-1">Following</div>
+                            <a href="#" class="text-grey-darker hover:no-underline">
+                                <div class="text-xs font-bold tracking-tight mb-1">Following</div>
                                 <div class="text-lg font-bold tracking-tight hover:text-teal">10</div>
                             </a>
                         </li>
                         <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
-                            <a href="#" class="text-green-darker hover:no-underline">
-                                <div class="text-sm font-bold tracking-tight mb-1">Followers</div>
+                            <a href="#" class="text-grey-darker hover:no-underline">
+                                <div class="text-xs font-bold tracking-tight mb-1">Followers</div>
                                 <div class="text-lg font-bold tracking-tight hover:text-teal">500</div>
                             </a>
                         </li>
                         <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
-                            <a href="#" class="text-green-darker hover:no-underline">
-                                <div class="text-sm font-bold tracking-tight mb-1">Likes</div>
+                            <a href="#" class="text-grey-darker hover:no-underline">
+                                <div class="text-xs font-bold tracking-tight mb-1">Likes</div>
                                 <div class="text-lg font-bold tracking-tight hover:text-teal">50</div>
                             </a>
                         </li>
                         <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
-                            <a href="#" class="text-green-darker hover:no-underline">
-                                <div class="text-sm font-bold tracking-tight mb-1">Moments</div>
+                            <a href="#" class="text-grey-darker hover:no-underline">
+                                <div class="text-xs font-bold tracking-tight mb-1">Moments</div>
                                 <div class="text-lg font-bold tracking-tight hover:text-teal">5</div>
                             </a>
                         </li>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="w-1/2 flex justify-end items-center">
                     <div class="mr-6">
-                        <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full">Following</button>
+                        <button class="bg-teal hover:bg-teal-dark text-white font-bold py-2 px-4 rounded-full">Following</button>
                     </div>
                     <div>
                         <a href="#" class="text-grey-dark"><i class="fas fa-ellipsis-v fa-lg"></i></a>
@@ -85,8 +85,8 @@
 
         <div class="container mx-auto flex mt-3 text-sm leading-normal">
             <div class="w-1/4 pr-6 mt-8 mb-4">
-                <h1><a href="#" class="text-black">Tailwind CSS</a></h1>
-                <div class="mb-4"><a href="#" class="text-grey-darker ">@tailwindcss</a></div>
+                <h2><a href="#" class="text-black">Tailwind CSS</a></h2>
+                <div class="mb-4"><a href="#" class="text-grey-darker">@tailwindcss</a></div>
 
                 <div class="mb-4">
                     A utility-first CSS framework for rapid UI development. By <a href="#">@adamwathan</a>, <a href="#">@reinink</a>,
@@ -94,10 +94,11 @@
                 </div>
 
                 <div class="mb-2"><i class="fas fa-link fa-lg text-grey-darker mr-1"></i><a href="#"> tailwindcss.com</a></div>
-                <div class="mb-4"><i class="fas fa-calendar-alt fa-lg text-grey-darker mr-1"></i><a href="#"> Joined august 2017</a></div>
+                <div class="mb-2"><i class="fas fa-calendar-alt fa-lg text-grey-darker mr-1"></i><a href="#"> Joined: august 2017</a></div>
+                <div class="mb-4"><i class="fas fa-birthday-cake fa-lg text-grey-darker mr-1"></i><a href="#"> Birthday: 31 october</a></div>
 
                 <div class="mb-4">
-                    <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full w-full h-10">Tweet to Tailwind.css</button>
+                    <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full w-full h-10 font-bold">Tweet</button>
                 </div>
 
                 <div class="mb-4"><i class="fas fa-user fa-lg text-grey-dark mr-1"></i><a href="#"> 20 Followers you know</a></div>
@@ -126,7 +127,57 @@
                 </div>
             </div>
 
-            <div class="w-1/2"></div>
+            <div class="w-1/2 bg-white mb-4">
+                <div class="p-3 text-lg font-bold border-b border-solid border-grey-light">
+                    <a href="#" class="text-black mr-6">Tweets</a>
+                    <a href="#" class="mr-6">Tweets &amp; Replies</a>
+                    <a href="#">Media</a>
+                </div>
+
+                <div class="flex border-b border-solid border-grey-light">
+                    <div class="w-1/8 text-right pl-3 pt-3">
+                        <div><i class="fas fa-thumbtack text-teal mr-2"></i></div>
+                        <div><a href="#"><img src="{{ asset('img/twitter/avatar_tailwind.jpg') }}" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
+                    </div>
+                    <div class="w-7/8 p-3 pl-0">
+                        <div class="text-xs text-grey-dark">Pinned Tweet</div>
+                        <div class="flex justify-between">
+                            <div>
+                                <span class="font-bold"><a href="#" class="text-black">Tailwind CSS</a></span>
+                                <span class="text-grey-dark">@tailwindcss</span>
+                                <span class="text-grey-dark">&middot;</span>
+                                <span class="text-grey-dark">15 Dec 2017 </span>
+                            </div>
+                            <div>
+                                <a href="#" class="text-grey-dark hover:text-teal"><i class="fas fa-chevron-down"></i></a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="mb-4">
+                                <p class="">News Title!</p>
+                                <p class="">Description...</p>
+                                <p class="mb-2"><a href="#">github.com/tailwindcss/...</a></p>
+                                <p class="mb-2"><i class="fas fa-globe-americas text-xs text-grey-dark mr-1"></i><a href="#" class="text-xs text-grey-dark">Translate the tweet</a></p>
+                                <p><a href="#"><img src="{{ asset('img/twitter/tweet1.jpg') }}" alt="tweet image" class="border
+                                    border-solid border-grey-light rounded-sm"></a></p>
+                            </div>
+                        </div>
+
+                        <div class="pb-2">
+                            <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fas
+                            fa-comment fa-lg mr-2"></i> 10</a></span>
+                            <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-green"><i class="fas
+                            fa-retweet fa-lg mr-2"></i> 15</a></span>
+                            <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-red"><i class="fas
+                            fa-heart fa-lg mr-2"></i> 135</a></span>
+                            <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-teal"><i class="fas
+                            fa-envelope fa-lg mr-2"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="w-1/4"></div>
         </div>
 

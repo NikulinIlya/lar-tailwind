@@ -3215,8 +3215,16 @@ a:hover {
   height: 12rem;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
 .h-64 {
   height: 16rem;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .h-112 {
@@ -3855,6 +3863,10 @@ a:hover {
   margin: -6rem;
 }
 
+.-m-28 {
+  margin: -7rem;
+}
+
 .-m-32 {
   margin: -8rem;
 }
@@ -3991,6 +4003,16 @@ a:hover {
 .-mx-24 {
   margin-left: -6rem;
   margin-right: -6rem;
+}
+
+.-my-28 {
+  margin-top: -7rem;
+  margin-bottom: -7rem;
+}
+
+.-mx-28 {
+  margin-left: -7rem;
+  margin-right: -7rem;
 }
 
 .-my-32 {
@@ -4219,6 +4241,22 @@ a:hover {
 
 .-ml-24 {
   margin-left: -6rem;
+}
+
+.-mt-28 {
+  margin-top: -7rem;
+}
+
+.-mr-28 {
+  margin-right: -7rem;
+}
+
+.-mb-28 {
+  margin-bottom: -7rem;
+}
+
+.-ml-28 {
+  margin-left: -7rem;
 }
 
 .-mt-32 {
@@ -6192,6 +6230,10 @@ a:hover {
   width: 12rem;
 }
 
+.w-52 {
+  width: 13rem;
+}
+
 .w-64 {
   width: 16rem;
 }
@@ -6246,6 +6288,14 @@ a:hover {
 
 .w-5\/6 {
   width: 83.33333%;
+}
+
+.w-1\/8 {
+  width: 12.5%;
+}
+
+.w-7\/8 {
+  width: 87.5%;
 }
 
 .w-full {
@@ -8911,8 +8961,16 @@ a:hover {
     height: 12rem;
   }
 
+  .sm\:h-52 {
+    height: 13rem;
+  }
+
   .sm\:h-64 {
     height: 16rem;
+  }
+
+  .sm\:h-96 {
+    height: 24rem;
   }
 
   .sm\:h-112 {
@@ -9551,6 +9609,10 @@ a:hover {
     margin: -6rem;
   }
 
+  .sm\:-m-28 {
+    margin: -7rem;
+  }
+
   .sm\:-m-32 {
     margin: -8rem;
   }
@@ -9687,6 +9749,16 @@ a:hover {
   .sm\:-mx-24 {
     margin-left: -6rem;
     margin-right: -6rem;
+  }
+
+  .sm\:-my-28 {
+    margin-top: -7rem;
+    margin-bottom: -7rem;
+  }
+
+  .sm\:-mx-28 {
+    margin-left: -7rem;
+    margin-right: -7rem;
   }
 
   .sm\:-my-32 {
@@ -9915,6 +9987,22 @@ a:hover {
 
   .sm\:-ml-24 {
     margin-left: -6rem;
+  }
+
+  .sm\:-mt-28 {
+    margin-top: -7rem;
+  }
+
+  .sm\:-mr-28 {
+    margin-right: -7rem;
+  }
+
+  .sm\:-mb-28 {
+    margin-bottom: -7rem;
+  }
+
+  .sm\:-ml-28 {
+    margin-left: -7rem;
   }
 
   .sm\:-mt-32 {
@@ -11872,6 +11960,10 @@ a:hover {
     width: 12rem;
   }
 
+  .sm\:w-52 {
+    width: 13rem;
+  }
+
   .sm\:w-64 {
     width: 16rem;
   }
@@ -11926,6 +12018,14 @@ a:hover {
 
   .sm\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .sm\:w-1\/8 {
+    width: 12.5%;
+  }
+
+  .sm\:w-7\/8 {
+    width: 87.5%;
   }
 
   .sm\:w-full {
@@ -14577,8 +14677,16 @@ a:hover {
     height: 12rem;
   }
 
+  .md\:h-52 {
+    height: 13rem;
+  }
+
   .md\:h-64 {
     height: 16rem;
+  }
+
+  .md\:h-96 {
+    height: 24rem;
   }
 
   .md\:h-112 {
@@ -15217,6 +15325,10 @@ a:hover {
     margin: -6rem;
   }
 
+  .md\:-m-28 {
+    margin: -7rem;
+  }
+
   .md\:-m-32 {
     margin: -8rem;
   }
@@ -15353,6 +15465,16 @@ a:hover {
   .md\:-mx-24 {
     margin-left: -6rem;
     margin-right: -6rem;
+  }
+
+  .md\:-my-28 {
+    margin-top: -7rem;
+    margin-bottom: -7rem;
+  }
+
+  .md\:-mx-28 {
+    margin-left: -7rem;
+    margin-right: -7rem;
   }
 
   .md\:-my-32 {
@@ -15581,6 +15703,22 @@ a:hover {
 
   .md\:-ml-24 {
     margin-left: -6rem;
+  }
+
+  .md\:-mt-28 {
+    margin-top: -7rem;
+  }
+
+  .md\:-mr-28 {
+    margin-right: -7rem;
+  }
+
+  .md\:-mb-28 {
+    margin-bottom: -7rem;
+  }
+
+  .md\:-ml-28 {
+    margin-left: -7rem;
   }
 
   .md\:-mt-32 {
@@ -17538,6 +17676,10 @@ a:hover {
     width: 12rem;
   }
 
+  .md\:w-52 {
+    width: 13rem;
+  }
+
   .md\:w-64 {
     width: 16rem;
   }
@@ -17592,6 +17734,14 @@ a:hover {
 
   .md\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .md\:w-1\/8 {
+    width: 12.5%;
+  }
+
+  .md\:w-7\/8 {
+    width: 87.5%;
   }
 
   .md\:w-full {
@@ -20243,8 +20393,16 @@ a:hover {
     height: 12rem;
   }
 
+  .lg\:h-52 {
+    height: 13rem;
+  }
+
   .lg\:h-64 {
     height: 16rem;
+  }
+
+  .lg\:h-96 {
+    height: 24rem;
   }
 
   .lg\:h-112 {
@@ -20883,6 +21041,10 @@ a:hover {
     margin: -6rem;
   }
 
+  .lg\:-m-28 {
+    margin: -7rem;
+  }
+
   .lg\:-m-32 {
     margin: -8rem;
   }
@@ -21019,6 +21181,16 @@ a:hover {
   .lg\:-mx-24 {
     margin-left: -6rem;
     margin-right: -6rem;
+  }
+
+  .lg\:-my-28 {
+    margin-top: -7rem;
+    margin-bottom: -7rem;
+  }
+
+  .lg\:-mx-28 {
+    margin-left: -7rem;
+    margin-right: -7rem;
   }
 
   .lg\:-my-32 {
@@ -21247,6 +21419,22 @@ a:hover {
 
   .lg\:-ml-24 {
     margin-left: -6rem;
+  }
+
+  .lg\:-mt-28 {
+    margin-top: -7rem;
+  }
+
+  .lg\:-mr-28 {
+    margin-right: -7rem;
+  }
+
+  .lg\:-mb-28 {
+    margin-bottom: -7rem;
+  }
+
+  .lg\:-ml-28 {
+    margin-left: -7rem;
   }
 
   .lg\:-mt-32 {
@@ -23204,6 +23392,10 @@ a:hover {
     width: 12rem;
   }
 
+  .lg\:w-52 {
+    width: 13rem;
+  }
+
   .lg\:w-64 {
     width: 16rem;
   }
@@ -23258,6 +23450,14 @@ a:hover {
 
   .lg\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .lg\:w-1\/8 {
+    width: 12.5%;
+  }
+
+  .lg\:w-7\/8 {
+    width: 87.5%;
   }
 
   .lg\:w-full {
@@ -25909,8 +26109,16 @@ a:hover {
     height: 12rem;
   }
 
+  .xl\:h-52 {
+    height: 13rem;
+  }
+
   .xl\:h-64 {
     height: 16rem;
+  }
+
+  .xl\:h-96 {
+    height: 24rem;
   }
 
   .xl\:h-112 {
@@ -26549,6 +26757,10 @@ a:hover {
     margin: -6rem;
   }
 
+  .xl\:-m-28 {
+    margin: -7rem;
+  }
+
   .xl\:-m-32 {
     margin: -8rem;
   }
@@ -26685,6 +26897,16 @@ a:hover {
   .xl\:-mx-24 {
     margin-left: -6rem;
     margin-right: -6rem;
+  }
+
+  .xl\:-my-28 {
+    margin-top: -7rem;
+    margin-bottom: -7rem;
+  }
+
+  .xl\:-mx-28 {
+    margin-left: -7rem;
+    margin-right: -7rem;
   }
 
   .xl\:-my-32 {
@@ -26913,6 +27135,22 @@ a:hover {
 
   .xl\:-ml-24 {
     margin-left: -6rem;
+  }
+
+  .xl\:-mt-28 {
+    margin-top: -7rem;
+  }
+
+  .xl\:-mr-28 {
+    margin-right: -7rem;
+  }
+
+  .xl\:-mb-28 {
+    margin-bottom: -7rem;
+  }
+
+  .xl\:-ml-28 {
+    margin-left: -7rem;
   }
 
   .xl\:-mt-32 {
@@ -28870,6 +29108,10 @@ a:hover {
     width: 12rem;
   }
 
+  .xl\:w-52 {
+    width: 13rem;
+  }
+
   .xl\:w-64 {
     width: 16rem;
   }
@@ -28924,6 +29166,14 @@ a:hover {
 
   .xl\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .xl\:w-1\/8 {
+    width: 12.5%;
+  }
+
+  .xl\:w-7\/8 {
+    width: 87.5%;
   }
 
   .xl\:w-full {
