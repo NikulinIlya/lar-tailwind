@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/twitter', function () {
+    return view('twitter');
+});
+
+Route::get('/youtube', function () {
+    return view('youtube');
 });
