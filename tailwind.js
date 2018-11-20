@@ -486,6 +486,7 @@ module.exports = {
     '48': '12rem',
     '52': '13rem',
     '64': '16rem',
+    '128': '32rem',
     '1/2': '50%',
     '1/3': '33.33333%',
     '2/3': '66.66667%',
@@ -941,6 +942,15 @@ module.exports = {
     require('tailwindcss/plugins/container')({
       // center: true,
       // padding: '1rem',
+    }),
+    require('./plugins/css-grid')({
+        grids: [2, 3, 5, 6, 8, 10, 12],
+        gaps: {
+            0: '0',
+            4: '1rem',
+            8: '2rem',
+        },
+        variants: ['responsive'],
     }),
   ],
 
