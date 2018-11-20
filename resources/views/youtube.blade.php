@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/youtube.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
-<body class="bg-grey-lighter">
+<body class="bg-grey-lightest">
     <div class="top-bar bg-white shadow grid grid-columns-12 px-8 py-2">
         <div class="col-span-3 flex items-center">
             <div class="mr-8"><a href="#"><i class="fas fa-bars text-grey-dark"></i></a></div>
@@ -34,6 +34,132 @@
                 <a href="#"><i class="fas fa-bell text-grey-dark mr-8"></i></a>
                 <a href="#"><img src="{{ asset('img/youtube/avatar-google.jpg') }}" alt="avatar" class="rounded-full w-8"></a>
             </div>
+        </div>
+    </div>
+
+    <div class="youtube-body grid grid-columns-12">
+        <div class="left-sidebar col-span-2 py-6 bg-grey-custom min-h-screen">
+            <div class="mb-6">
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-home fa-lg fa-fw text-red mr-4"></i>
+                    <span class="font-normal text-sm">Home</span>
+                </a>
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-fire fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <span class="font-normal text-sm">Trending</span>
+                </a>
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fab fa-youtube-square fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <span class="font-normal text-sm">Subscriptions</span>
+                </a>
+            </div>
+
+            <div class="mb-6">
+                <div class="uppercase px-6 text-grey-darkest text-sm mb-4">Library</div>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="far fa-clock fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">History</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-clock fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">Watch later</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-list-ul fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">Laravel Ecommerce</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-thumbs-up fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">Liked videos</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-chevron-down fa-fw text-grey-dark ml-1 mr-5"></i>
+                    <div class="text-sm">Show more</div>
+                </a>
+            </div>
+
+            <div class="mb-6">
+                <div class="uppercase px-6 text-grey-darkest text-sm mb-4">Subscriptions</div>
+
+                <a href="#" class="flex items-center py-3 px-6 text-black transition hover:bg-grey-light">
+                    <img src="/img/youtube/avatar1.jpg" alt="avatar" class="rounded-full w-6 mr-5">
+                    <div class="text-sm">freeCodeCamp</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-chevron-down fa-fw text-grey-dark mr-8"></i>
+                    <div class="text-sm">Show 100 more</div>
+                </a>
+            </div>
+
+            <div class="mb-6">
+                <div class="uppercase px-6 text-grey-darkest text-sm mb-4">More From YouTube</div>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fab fa-youtube fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">YouTube Premium</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-film fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">YouTube Movies</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-gamepad fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">Gaming</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-6 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-broadcast-tower fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">Live</div>
+                </a>
+
+                {{--<hr class="border border-grey-light">--}}
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-cog fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">Settings</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-flag fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">Report history</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-question-circle fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">Help</div>
+                </a>
+
+                <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
+                    <i class="fas fa-exclamation-triangle fa-lg fa-fw text-grey-dark mr-4"></i>
+                    <div class="text-sm">Send Feedback</div>
+                </a>
+            </div>
+
+            <div class="px-6 text-sm mb-4">
+                <a href="#" class="pr-2 text-sm text-grey-dark">About</a>
+                <a href="#" class="pr-2 text-sm text-grey-dark">Press</a>
+                <a href="#" class="pr-2 text-sm text-grey-dark">Copyright</a>
+                <a href="#" class="pr-2 text-sm text-grey-dark">Contact us</a>
+                <a href="#" class="pr-2 text-sm text-grey-dark">Creators</a>
+                <a href="#" class="pr-2 text-sm text-grey-dark">Developers</a>
+            </div>
+
+            <div class="px-6 text-sm mb-4">
+                <a href="#" class="pr-2 text-sm text-grey-dark">Terms</a>
+                <a href="#" class="pr-2 text-sm text-grey-dark">Privacy</a>
+                <a href="#" class="pr-2 text-sm text-grey-dark">Policy & Safety</a>
+                <a href="#" class="pr-2 text-sm text-grey-dark">Test new features</a>
+            </div>
+
+            <div class="px-6 text-sm text-grey-darker">&copy; 2018 YouTube, LLC</div>
         </div>
     </div>
 

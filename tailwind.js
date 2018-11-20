@@ -47,6 +47,7 @@ let colors = {
   'transparent': 'transparent',
 
   'black': '#22292f',
+  'grey-custom': '#F5F5F5',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
@@ -952,6 +953,7 @@ module.exports = {
         },
         variants: ['responsive'],
     }),
+    require('glhd-tailwindcss-transitions').default(),
   ],
 
 
