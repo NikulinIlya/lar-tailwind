@@ -11,14 +11,14 @@
 </head>
 <body class="bg-grey-lightest">
     <div class="top-bar bg-white shadow grid grid-columns-12 px-8 py-2">
-        <div class="col-span-3 flex items-center">
+        <div class="col-span-12 lg:col-span-3 flex items-center">
             <div class="mr-8"><a href="#"><i class="fas fa-bars text-grey-dark"></i></a></div>
             <div class="w-24 py-2"><a href="#"><img src="{{ asset('img/youtube/YouTube_Logo_2017.svg') }}" alt="Logo"></a></div>
         </div>
-        <div class="col-span-6">
+        <div class="col-span-12 lg:col-span-6 flex flex-col lg:flex-row">
             <div>
                 <form action="#" class="flex py-2">
-                    <input type="text" class="border border-grey py-2 px-2 w-128 " placeholder="Search">
+                    <input type="text" class="border border-grey py-2 px-2 w-64 lg:w-128" placeholder="Search">
                     <button type="submit" class="border-t border-r border-b border-grey py-2 px-6 bg-grey-lighter hover:bg-grey-light">
                         <i class="fas fa-search text-grey-darker"></i>
                     </button>
@@ -26,8 +26,8 @@
             </div>
 
         </div>
-        <div class="col-span-3 flex justify-end">
-            <div class="flex items-center">
+        <div class="col-span-12 lg:col-span-3 flex justify-end flex-col lg:flex-row">
+            <div class="flex items-center mt-4 lg:mt-0">
                 <a href="#"><i class="fas fa-video text-grey-dark mr-8"></i></a>
                 <a href="#"><i class="fas fa-th text-grey-dark mr-8"></i></a>
                 <a href="#"><i class="fas fa-comment text-grey-dark mr-8"></i></a>
@@ -38,7 +38,7 @@
     </div>
 
     <div class="youtube-body grid grid-columns-12">
-        <div class="left-sidebar col-span-2 py-6 bg-grey-custom min-h-screen">
+        <div class="left-sidebar col-span-12 lg:col-span-2 py-6 bg-grey-custom min-h-screen">
             <div class="mb-6">
                 <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
                     <i class="fas fa-home fa-lg fa-fw text-red mr-4"></i>
@@ -162,11 +162,11 @@
             <div class="px-6 text-sm text-grey-darker">&copy; 2018 YouTube, LLC</div>
         </div>
 
-        <div class="youtube-videos col-span-10 container mx-auto py-6">
+        <div class="youtube-videos col-span-12 lg:col-span-10 container mx-auto py-6">
             <div class="font-semibold mb-6">
                 Recommended
             </div>
-            <div class="grid grid-columns-5 grid-gap-2 mb-6">
+            <div class="grid grid-columns-1 lg:grid-columns-5 grid-gap-2 mb-6">
                 <div>
                     <a href="#">
                         <img src="{{ asset('img/youtube/thumbnail001.jpg') }}" alt="thumb" class="mb-1"> {{--transition-slow hover:opacity-75--}}
@@ -234,7 +234,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-columns-5 grid-gap-2 mb-6">
+            <div class="grid grid-columns-1 lg:grid-columns-5 grid-gap-2 mb-6">
                 <div>
                     <a href="#">
                         <img src="{{ asset('img/youtube/thumbnail006.jpg') }}" alt="thumb" class="mb-1"> {{--transition-slow hover:opacity-75--}}
@@ -317,7 +317,7 @@
             </div>
 
             <div class="flex flex-col lg:flex-row">
-                <a href="#" class="mr-4"><img src="{{ asset('img/youtube/thumbnail12.jpg') }}" alt="thumb" class="mb-1 transition-slow hover:opacity-75"></a>
+                <a href="#" class="mr-4"><img src="{{ asset('img/youtube/thumbnail12.jpg') }}" alt="thumb" class="mb-1"></a>
                 <div class="w-128 max-w-full">
                     <div class="mb-1"><a href="#" class="text-black font-bold">Video name</a></div>
                     <div class="text-sm mb-3"><a href="#" class="text-grey-dark hover:text-black">Channel &middot; 12K views &middot; 3 months ago <i class="fas fa-check-circle"></i></a></div>
