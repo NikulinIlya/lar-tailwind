@@ -92,7 +92,7 @@
                 </a>
 
                 <a href="#" class="flex items-center py-3 px-6 mb-2 text-black transition hover:bg-grey-light">
-                    <i class="fas fa-chevron-down fa-fw text-grey-dark mr-8"></i>
+                    <i class="fas fa-chevron-down fa-fw text-grey-dark ml-1 mr-5"></i>
                     <div class="text-sm">Show 100 more</div>
                 </a>
             </div>
@@ -160,6 +160,170 @@
             </div>
 
             <div class="px-6 text-sm text-grey-darker">&copy; 2018 YouTube, LLC</div>
+        </div>
+
+        <div class="youtube-videos col-span-10 container mx-auto py-6">
+            <div class="font-semibold mb-6">
+                Recommended
+            </div>
+            <div class="grid grid-columns-5 grid-gap-2 mb-6">
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail001.jpg') }}" alt="thumb" class="mb-1"> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail002.jpg') }}" alt="thumb" class="mb-1"> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail003.jpg') }}" alt="thumb" class="mb-1 "> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail004.jpg') }}" alt="thumb" class="mb-1 "> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail005.jpg') }}" alt="thumb" class="mb-1 "> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-columns-5 grid-gap-2 mb-6">
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail006.jpg') }}" alt="thumb" class="mb-1"> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail007.jpg') }}" alt="thumb" class="mb-1"> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail008.jpg') }}" alt="thumb" class="mb-1 "> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail009.jpg') }}" alt="thumb" class="mb-1 "> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{{ asset('img/youtube/thumbnail10.jpg') }}" alt="thumb" class="mb-1 "> {{--transition-slow hover:opacity-75--}}
+                        <div class="font-bold mb-2"><a href="#" class="text-black">Title</a></div>
+                        <div class="text-sm mb-1">
+                            <a href="#" class="text-grey-dark">
+                                <span class="hover:text-black">Channel name</span>
+                                <i class="fas fa-check-circle fa-sm"></i>
+                            </a>
+                        </div>
+                        <div class="text-sm text-grey-dark">Number of views &middot; period ago</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <a href="#" class="text-sm text-grey-dark uppercase">Show more</a>
+            </div>
+
+            <div class="border-b border-solid mb-6 border-grey-lighter"></div>
+
+            <div class="flex justify-between items-center mb-6">
+                <div class="flex items-center">
+                    <a href="#"><img src="{{ asset('img/youtube/thumbnail11.jpg') }}" alt="avatar" class="rounded-full w-8 h-8 mr-2"></a>
+                    <a href="#" class="font-bold text-black">Channel name</a>
+                </div>
+                <a href="#"><div class="text-2xl font-light text-grey-dark hover:text-grey-darkest">&times;</div></a>
+            </div>
+
+            <div class="flex flex-col lg:flex-row">
+                <a href="#" class="mr-4"><img src="{{ asset('img/youtube/thumbnail12.jpg') }}" alt="thumb" class="mb-1 transition-slow hover:opacity-75"></a>
+                <div class="w-128 max-w-full">
+                    <div class="mb-1"><a href="#" class="text-black font-bold">Video name</a></div>
+                    <div class="text-sm mb-3"><a href="#" class="text-grey-dark hover:text-black">Channel &middot; 12K views &middot; 3 months ago <i class="fas fa-check-circle"></i></a></div>
+                    <div class="text-sm"><a href="#" class="text-grey-dark leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ad temporibus explicabo, possimus labore non atque eveniet id modi inventore reprehenderit deleniti. Porro alias illo minima ratione. Quos possimus, natus.</a></div>
+                </div>
+            </div>
         </div>
     </div>
 
