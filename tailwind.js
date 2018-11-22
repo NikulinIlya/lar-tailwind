@@ -194,6 +194,12 @@ module.exports = {
   */
 
   fonts: {
+    'wp-pusher': [
+        'Lato',
+        'system-ui',
+        'Helvetica Neue',
+        'sans-serif',
+    ],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',

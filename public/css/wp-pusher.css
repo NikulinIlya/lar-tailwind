@@ -3037,6 +3037,10 @@ a {
   clear: both;
 }
 
+.font-wp-pusher {
+  font-family: Lato, system-ui, Helvetica Neue, sans-serif;
+}
+
 .font-sans {
   font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -9160,6 +9164,10 @@ a {
     clear: both;
   }
 
+  .sm\:font-wp-pusher {
+    font-family: Lato, system-ui, Helvetica Neue, sans-serif;
+  }
+
   .sm\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
@@ -15134,6 +15142,10 @@ a {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .md\:font-wp-pusher {
+    font-family: Lato, system-ui, Helvetica Neue, sans-serif;
   }
 
   .md\:font-sans {
@@ -21112,6 +21124,10 @@ a {
     clear: both;
   }
 
+  .lg\:font-wp-pusher {
+    font-family: Lato, system-ui, Helvetica Neue, sans-serif;
+  }
+
   .lg\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
@@ -27086,6 +27102,10 @@ a {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .xl\:font-wp-pusher {
+    font-family: Lato, system-ui, Helvetica Neue, sans-serif;
   }
 
   .xl\:font-sans {

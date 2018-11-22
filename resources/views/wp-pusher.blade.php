@@ -6,9 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WP Pusher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i">
     <link rel="stylesheet" href="/css/wp-pusher.css">
 </head>
-<body>
+<body class="bg-grey-lighter font-wp-pusher antialiased">
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quia.</div>
 </body>
 </html>
