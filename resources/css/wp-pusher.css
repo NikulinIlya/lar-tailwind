@@ -38,7 +38,7 @@
 
 a {
     text-decoration: none;
-
+    @apply .text-black;
 }
 /**
  * This injects all of Tailwind's utility classes, generated based on your

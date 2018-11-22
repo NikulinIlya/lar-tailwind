@@ -10,6 +10,29 @@
     <link rel="stylesheet" href="/css/wp-pusher.css">
 </head>
 <body class="bg-grey-lighter font-wp-pusher antialiased">
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quia.</div>
+    <div class="nav-container mx-16">
+        <div class="navbar flex justify-between items-center border-b-2 border-grey-light py-8 mb-16">
+            <a href="#"><img src="/img/wp-pusher/logo.png" alt="logo"></a>
+            <div class="flex font-bold text-sm">
+                <div>
+                    <a href="#" class="hover:text-grey-darker">Download</a>
+                </div>
+                <div class="ml-10">
+                    <a href="#" class="hover:text-grey-darker">Learn more</a>
+                </div>
+                <div class="ml-10">
+                    <a href="#" class="hover:text-grey-darker">Pricing</a>
+                </div>
+                <div class="ml-10">
+                    <a href="#" class="hover:text-grey-darker">Help</a>
+                </div>
+                <div class="ml-10">
+                    <a href="#" class="px-4 py-3 rounded-lg border-2 border-black hover:bg-black hover:text-white">Account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
