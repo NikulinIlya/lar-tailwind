@@ -18,3 +18,7 @@ Route::get('/twitter', function () {
 Route::get('/youtube', function () {
     return view('youtube');
 });
+
+Route::get('/wp-pusher', function () {
+    return view('wp-pusher');
+});

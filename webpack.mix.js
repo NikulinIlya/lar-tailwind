@@ -17,7 +17,7 @@ mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
 */
 
-mix.postCss('resources/css/youtube.css', 'public/css', [
+mix.postCss('resources/css/wp-pusher.css', 'public/css', [
     tailwindcss('./tailwind.js'),
 ])
-.browserSync('lar-tailwind/youtube');
+.browserSync('lar-tailwind/wp-pusher');
