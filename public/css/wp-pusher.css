@@ -566,6 +566,10 @@ a {
   outline: 0;
 }
 
+.lh-fix {
+  line-height: .75;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
@@ -6057,6 +6061,10 @@ a {
 
 .text-5xl {
   font-size: 3rem;
+}
+
+.text-5\.5xl {
+  font-size: 4.125rem;
 }
 
 .italic {
@@ -12250,6 +12258,10 @@ a {
     font-size: 3rem;
   }
 
+  .text-5\.sm\:5xl {
+    font-size: 4.125rem;
+  }
+
   .sm\:italic {
     font-style: italic;
   }
@@ -18308,6 +18320,10 @@ a {
 
   .md\:text-5xl {
     font-size: 3rem;
+  }
+
+  .text-5\.md\:5xl {
+    font-size: 4.125rem;
   }
 
   .md\:italic {
@@ -24370,6 +24386,10 @@ a {
     font-size: 3rem;
   }
 
+  .text-5\.lg\:5xl {
+    font-size: 4.125rem;
+  }
+
   .lg\:italic {
     font-style: italic;
   }
@@ -30428,6 +30448,10 @@ a {
 
   .xl\:text-5xl {
     font-size: 3rem;
+  }
+
+  .text-5\.xl\:5xl {
+    font-size: 4.125rem;
   }
 
   .xl\:italic {

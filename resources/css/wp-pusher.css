@@ -44,6 +44,10 @@ a {
 .outline-0 {
     outline: 0;
 }
+
+.lh-fix {
+    line-height: 0.75;
+}
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
