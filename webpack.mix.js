@@ -1,7 +1,8 @@
 const mix = require('laravel-mix');
 const tailwindcss = require('tailwindcss');
-const glob = require("glob-all");
-const PurgecssPlugin = require("purgecss-webpack-plugin");
+// const glob = require("glob-all");
+// const PurgecssPlugin = require("purgecss-webpack-plugin");
+require('laravel-mix-purgecss');
 
 /*
  |--------------------------------------------------------------------------
@@ -18,20 +19,22 @@ const PurgecssPlugin = require("purgecss-webpack-plugin");
 // class names.
 //
 // https://github.com/FullHuman/purgecss#extractor
-class TailwindExtractor {
+/*class TailwindExtractor {
     static extract(content) {
         return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
     }
-}
+}*/
 
-mix.postCss('resources/css/list.css', 'public/css', [
+mix.postCss('resources/css/youtube.css', 'public/css', [
     tailwindcss('./tailwind.js'),
 ])
+    .purgeCss();
 // .browserSync('lar-tailwind/wp-pusher');
 
 // Only run PurgeCSS during production builds for faster development builds
 // and so you still have the full set of utilities available during
 // development.
+/*
 if (mix.inProduction()) {
     mix.webpackConfig({
         plugins: [
@@ -39,8 +42,8 @@ if (mix.inProduction()) {
 
                 // Specify the locations of any files you want to scan for class names.
                 paths: glob.sync([
-                    path.join(__dirname, "resources/views/**/*.blade.php"),
-                    path.join(__dirname, "resources/js/**/*.vue")
+                    path.join(__dirname, "resources/views/!**!/!*.blade.php"),
+                    path.join(__dirname, "resources/js/!**!/!*.vue")
                 ]),
                 extractors: [
                     {
@@ -54,4 +57,4 @@ if (mix.inProduction()) {
             })
         ]
     });
-}
+}*/
